@@ -2,8 +2,8 @@ from ibm_watson import TextToSpeechV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 import json
 
-apikey = 'SoQ0KKGCnHIPmbF7Mz9EZnSjrVjREBTYV0IWXnp-OrXp'
-url = 'https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/09a40c2d-2a13-4f01-ad42-9b634c374daa'
+apikey = 'YOUR API KEY'
+url = 'YOUR URL'
 
 authenticator = IAMAuthenticator(apikey)
 tts = TextToSpeechV1(authenticator=authenticator)
